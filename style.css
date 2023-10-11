@@ -1,0 +1,23 @@
+/* RESET*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  border: solid 4px #dd4a48;
+  margin: 5px;
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-container div {
+  border: solid 2px #af091d;
+  background-color: burlywood;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
